@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/proximanova-semibold/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold/ProximaNova-Semibold.woff") format("woff"), url("../fonts/proximanova-semibold/ProximaNova-Semibold.ttf") format("truetype"); }
+@font-face {
+  font-family: "MyriadPro-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "ProximaNova-Extrabld";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/proximanova-extrabold/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-extrabold/ProximaNova-Extrabld.woff") format("woff"), url("../fonts/proximanova-extrabold/ProximaNova-Extrabld.ttf") format("truetype"); }
+@font-face {
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/proximanova-regular/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular/ProximaNova-Regular.woff") format("woff"), url("../fonts/proximanova-regular/ProximaNova-Regular.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

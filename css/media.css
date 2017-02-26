@@ -1,0 +1,360 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
+	.slide-item button{
+		left: 56.3%;
+	}
+	header .search{
+		margin-left: 258px;
+	}
+	footer .footer-bottom .copy{
+		margin-left: 0px;
+	}
+	footer .footer-bottom .region{
+		margin-right: 32px;
+	}
+}
+@media only screen and (max-width : 1280px) {
+	header .search{
+		margin-left: 189px;
+	}
+	.slide-item .slide-text{
+		left: 293px;
+	}
+	.slide-item button{
+		left: 50.3%;
+	}
+
+	footer .footer-bottom .region{
+		margin-right: 35px;
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	header .search{
+		margin-left: 109px;
+	}
+	.slide-item .slide-text{
+		left: 255px;
+		top: 108px;
+	}
+	.company .company-text{
+		left: 6.5%;
+	}
+	.slide-item button{
+		left: 50.3%;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 980px) {
+	footer .footer-bottom p{
+		margin: 0;
+	}
+	header .logo{
+		margin-left: 10px;
+	}
+	header .search{
+		margin-left: 65px;
+	}
+	header .shopping{
+		margin-right: 21px;
+		margin-left: 45px;
+	}
+	.slide-item .slide-text{
+		left: 100px;
+		top: 44px;
+	}
+	.slide-item button{
+		left: 47%;
+	}
+	.company .company-text{
+		left: 2.5%;
+	}
+	.company .company-text h2{
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and (max-width : 960px) {
+	
+	header .search{
+		margin-left: 45px;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 800px) {
+	.company .company-text{
+		top: 17.4%;
+	}
+	.company .company-text h2{
+		font-size: 39.04px;
+		margin-bottom: 23px;
+		line-height: 50px;
+	}
+	.company .company-text p{
+		font-size: 15px;
+		margin-bottom: 17px;
+		line-height: 18px;
+	}
+	.slider-bottom h2{
+		margin: 30px 0;
+	}
+	.slider-bottom p{
+		margin: 30px 0;
+	}
+	.company .company-text{
+		max-width: 450px;
+	}
+	.slide-item button {
+		left: 39%;
+	}
+	.slide-item .slide-text h1 {
+		font-size: 56px;
+		line-height: 66px;
+	}
+	header .shopping {
+		margin-right: 15px;
+		margin-left: 18px;
+	}
+	header .search {
+		margin-left: 37px;
+	}
+	header nav{
+		margin-left: 0;
+	}
+	header nav ul li{
+		margin: 0 5px;
+	}
+	header nav ul li:nth-child(5) {
+		margin: 0px 5px;
+	}
+	.slider-bottom .responsive img{
+		max-width: 100px
+	}
+	.slider-bottom .responsive .fa{
+		font-size: 203px;
+	}
+		.slider-bottom h2{
+		font-size: 37px;
+	}
+	.gallery .gallery-wrap{
+		margin-bottom: 40px;
+	}
+	
+}
+@media only screen and (max-width : 768px) {
+	header .search {
+		margin-left: 5px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.slide-item .slide-text h1 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+	.single-item{
+		padding-top: 108px;
+	}
+	.slide-item button {
+		height: 40px;
+		width: 108px;
+		bottom: 16.1%;
+		left: 43%;
+	}
+	.slick-dots{
+		bottom: 5px;
+	}
+	.slick-dots li{
+		width: 15px;
+		height: 15px;
+	}
+	.slick-dots li button::before{
+		width: 18px;
+		height: 18px;
+	}
+	.company .company-text {
+		max-width: 303px;
+		top: -3.6%;
+	}
+	.company .company-text h2 {
+		font-size: 24.04px;
+		margin-bottom: 12px;
+		line-height: 37px;
+	}
+	.company .company-text p {
+		font-size: 12px;
+		margin-bottom: 13px;
+		line-height: 13px;
+	}
+	.gallery h2{
+		font-size: 40.04px;
+		margin-top: 15px;
+	}
+	.gallery .items-wrap{
+		display: block;
+		float: left;
+	}
+
+	.gallery .items-wrap{
+		overflow: hidden;
+	}
+	.gallery .gallery-wrap{
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.gallery .items-wrap .gallery-item {
+		margin: 10px;
+		float: left;
+	}
+	footer .footer-item {
+		margin: 0 auto;
+	}
+	footer h3{
+		text-align: center;
+	}
+	footer ul li{
+		text-align: center;
+	}
+	footer .footer-bottom .copy {
+		margin-left: 0px;
+	}
+	footer .footer-bottom .region {
+		margin-right: 0px;
+	}
+	.hidden-mnu{
+		margin-left: 127px;
+	}
+	header .shopping {
+		margin-right: 119px;
+	}
+	header .search {
+		margin-bottom: 10px;
+	}
+	footer{
+		float: left;
+	}
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width : 360px) {
+	sup {
+		top: 0em;
+	}
+	.company .company-text h2 {
+		font-size: 18.04px;
+		margin-bottom: 10px;
+		line-height: 18px;
+	}
+	.gallery .items-wrap {
+
+		margin: 50px;
+	}
+	footer .footer-bottom .copy {
+		margin-left: 53px;
+	}
+	footer .footer-bottom .region {
+		margin-right: 80px;
+	}
+
+	header .search {
+		margin: 96px 0 10px -12px;
+
+	}
+	header .shopping{
+		margin: 100px 22px 0px 12px;
+	}
+	.hidden-mnu {
+		margin-left: 70px;
+	}
+	.single-item {
+		padding-top: 145px;
+	}
+	.slide-item .slide-text {
+		left: 52px;
+		top: 0px;
+	}
+	.slide-item .slide-text h1 {
+		font-size: 23px;
+		line-height: 30px;
+	}
+	.slide-item button {
+		height: 30px;
+		width: 95px;
+		bottom: 22.1%;
+		left: 32%;
+		font-size: 13px;
+	}
+	.slider-bottom h2 {
+		font-size: 29px;
+		margin: 15px 0;
+	}
+
+	.single-item {
+    padding-top: 133px;
+}
+
+}
+
+
+
+@media only screen and (max-width : 320px) {
+	header .search {
+		margin: 0 0 10px 22px;
+	}
+	header .shopping{
+		margin-top: 5px;
+	}
+	.hidden-mnu {
+		margin-left: 46px;
+	}
+	header .search {
+		margin: 0 0 10px 22px;
+
+	}
+	header .shopping{
+		margin-top: 5px;
+	}
+	footer .footer-bottom .copy {
+		margin-left: 30px;
+	}
+	footer .footer-bottom .region {
+		margin-right: 65px;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
